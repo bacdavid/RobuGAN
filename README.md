@@ -6,17 +6,15 @@ This project is by David Bachmann (bacdavid). It is not published or affilated.
 Combining a Variational Auto-Encoder with a modified Adversarial Loss to make GAN training more stable. The main idea is that the generated image is closely related to a sample, it is marely a slight perturbation of it. Exploiting this fact the feature maps of the critic can be matched along the regular adversarial loss, allowing for far more stable training. 
 
 <figure>
-
-	<figure>
-    		<img src="img/generated_samples_RobuGAN.jpg" width="250">
-    		<figcaption>Caption for Picture 1</figcaption>
-    	</figure>
-
-    	<figure>
-    		<img src="img/generated_samples_VAE.jpg" width="250">
-    		<figcaption>Caption for Picture 2</figcaption>
-    	</figure>
+	<img src="img/generated_samples_RobuGAN.jpg" width="250">
+	<figcaption>Caption for Picture 1</figcaption>
 </figure>
+
+<figure>
+	<img src="img/generated_samples_VAE.jpg" width="250">
+	<figcaption>Caption for Picture 2</figcaption>
+</figure>
+
 
 ## Details
 
